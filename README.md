@@ -42,7 +42,7 @@ Aus: ARD, Arte, DMAX, FlixiTV, Netzkino, Pluto TV, South Park, Tele5 und TLC sin
 
 ## Status
 
-Ein täglicher [Smoke-Test](.github/workflows/smoke.yml) ruft jeden Provider mit bekannten Titeln auf. Liefert ein Provider keine Streams mehr, öffnet der Workflow das Issue „Provider-Smoke-Test: Ausfälle" und schließt es wieder, sobald alles läuft. Den aktuellen Stand findest du im [Workflow-Verlauf](https://github.com/dw98-git/nuvio-german-providers/actions/workflows/smoke.yml).
+Ein [Smoke-Test](.github/workflows/smoke.yml) (nur manuell: Actions → „Provider smoke test“ → Run workflow) ruft jeden Provider mit bekannten Titeln auf. Liefert ein Provider keine Streams mehr, öffnet der Workflow das Issue „Provider-Smoke-Test: Ausfälle" und schließt es wieder, sobald alles läuft. Den aktuellen Stand findest du im [Workflow-Verlauf](https://github.com/dw98-git/nuvio-german-providers/actions/workflows/smoke.yml).
 
 ## Von bestimmten IPs blockiert
 

@@ -1,8 +1,6 @@
 name: Provider smoke test
 
 on:
-  schedule:
-    - cron: "43 5 * * *"
   workflow_dispatch:
 
 permissions:
