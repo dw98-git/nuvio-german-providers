@@ -47,7 +47,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B "$BRANCH"
-          git add UPSTREAM_UPDATE.md .upstream.json
+          git add -f UPSTREAM_UPDATE.md .upstream.json
           git commit -m "chore: document upstream GermanProviders changes"
           git push --force --set-upstream origin "$BRANCH"
       - name: Create or update the draft pull request
