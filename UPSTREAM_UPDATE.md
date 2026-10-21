@@ -4,51 +4,25 @@
 
 ## Commits
 
-- 41e7d9f huhu: migrate to new API endpoints
-- ab3823c ci: bump actions versions
-- 6e90e61 xcine: remove service (all sites dead)
+- 3fe86dd hdfilme: migrate to new website layout
 
 ## Changed Kotlin files
 
 ### hdfilme
 
 - M HDFilme/src/main/kotlin/com/bnyro/HDFilme.kt
-
-### huhuto
-
-- M HuhuTo/src/main/kotlin/com/bnyro/HuhuTo.kt
-- D HuhuTo/src/main/kotlin/com/bnyro/HuhuToExtractor.kt
-- D HuhuTo/src/main/kotlin/com/bnyro/HuhuToLIve.kt
-- M HuhuTo/src/main/kotlin/com/bnyro/HuhuToPlugin.kt
-
-### Unmapped / needs review
-
-- D Xcine/src/main/kotlin/com/bnyro/KinoKisteClub.kt
-- D Xcine/src/main/kotlin/com/bnyro/Movie4k.kt
-- D Xcine/src/main/kotlin/com/bnyro/Streamcloud.kt
-- D Xcine/src/main/kotlin/com/bnyro/XCineBase.kt
-- D Xcine/src/main/kotlin/com/bnyro/XCineExtractors.kt
-- D Xcine/src/main/kotlin/com/bnyro/XCinePlugin.kt
-- D Xcine/src/main/kotlin/com/bnyro/XcineRU.kt
-
-## Other changed files
-
-- M .github/workflows/build.yml
-- M HuhuTo/build.gradle.kts
-- D Xcine/build.gradle.kts
-- D Xcine/src/main/AndroidManifest.xml
-- M build.gradle.kts
+- M HDFilme/src/main/kotlin/com/bnyro/HDFilmeExtractors.kt
+- M HDFilme/src/main/kotlin/com/bnyro/HDFilmePlugin.kt
 
 ## Nuvio files to review
 
 - src/hdfilme/index.js → likely review target
-- src/huhuto/index.js → likely review target
 
 ## Upstream comparison
 
-- Previous: 7670925f8026ae1a094fff5a5e253fa157316a6c
-- Current: 41e7d9f2283f35aa3ff749dd9f8e73c4e28ea625
-- Compare: https://github.com/Bnyro/GermanProviders/compare/7670925f8026ae1a094fff5a5e253fa157316a6c...41e7d9f2283f35aa3ff749dd9f8e73c4e28ea625
+- Previous: 41e7d9f2283f35aa3ff749dd9f8e73c4e28ea625
+- Current: 3fe86ddf4dc789392cf53f4c66716c17c4fb0f36
+- Compare: https://github.com/Bnyro/GermanProviders/compare/41e7d9f2283f35aa3ff749dd9f8e73c4e28ea625...3fe86ddf4dc789392cf53f4c66716c17c4fb0f36
 
 ## Porting procedure
 
